@@ -14,7 +14,8 @@ export class SongsService {
   }
 
   findOne(id) {
-    return this.songs[id];
+    return `this will return a song with id ${id} ${typeof id}`;
+    // return this.songs[id];
   }
 
   update(id, song) {
